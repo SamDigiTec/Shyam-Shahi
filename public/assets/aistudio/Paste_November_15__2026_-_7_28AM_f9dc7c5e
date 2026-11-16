@@ -1,0 +1,951 @@
+MASTER PROMPT: PREMIUM SOCIAL MEDIA MANAGER & AI CONTENT CREATOR PORTFOLIO WEBSITE
+ROLE AND OBJECTIVE
+Act as a senior UI/UX designer, full-stack developer, creative director, database architect, and digital marketing portfolio specialist.
+Build a complete, premium, visually impressive, fully responsive, dynamic, and database-powered personal portfolio website for Shyam Shahi — Social Media Manager & AI Content Creator.
+The website must demonstrate expertise in:
+•	Social Media Management
+•	Social Media Strategy
+•	AI-Powered Content Creation
+•	AI Image Generation
+•	AI Video Creation
+•	Graphic Design and Creative Direction
+•	WhatsApp Business API and Marketing Automation
+•	Content Strategy, Funnel Creation and Marketing Campaigns
+•	Brand Development and Digital Marketing
+The website should position me as a professional who combines creative storytelling, strategic marketing, AI-powered production, and intelligent automation to help businesses grow.
+The website must have two independent interfaces:
+1.	Public-facing portfolio website.
+2.	Secure, fully functional Admin Dashboard (CMS).
+The admin dashboard is a critical requirement, not an optional feature. Every important public-facing section must be manageable through the dashboard without modifying source code.
+________________________________________
+PART 1: DESIGN DIRECTION
+1. Overall Theme
+Create a premium, futuristic, dark-themed creative portfolio inspired by the attached reference image.
+The visual identity should communicate:
+•	Professionalism
+•	Creativity
+•	Innovation
+•	Digital expertise
+•	Modern marketing
+•	AI-powered creativity
+•	Trust and reliability
+Use a premium digital agency aesthetic rather than a conventional resume website.
+The website should look like a combination of a high-end creative agency website, a professional personal portfolio, and a modern digital marketing studio.
+Avoid generic AI-generated website layouts, excessive gradients, unnecessary animations, and repetitive card designs.
+2. Color Palette
+Use the following exact color palette:
+•	Primary background: #06152B
+•	Secondary background: #0B1F3A
+•	Card background: #0D2747
+•	Primary accent: #2878FF
+•	Secondary accent: #00B8FF
+•	Primary text: #F5F8FF
+•	Secondary text: #A9BBD3
+•	Borders: #24466C
+•	Success indicator: #22C55E
+Use electric blue for buttons, links, active navigation indicators, icons, highlights, and interactive elements.
+Use subtle blue glows and gradients sparingly.
+The entire website must maintain consistent colors across all pages and the admin dashboard.
+3. Typography
+Use:
+•	Headings: Space Grotesk
+•	Body text: Inter
+•	Accent typography: Space Grotesk Medium or SemiBold
+Headings should be bold, clean, and visually prominent.
+Maintain clear typography hierarchy, readable paragraph widths, appropriate line heights, and consistent spacing.
+4. Overall Layout
+Create a polished, responsive layout.
+Desktop:
+•	Maximum content width around 1440px.
+•	Sticky navigation bar.
+•	Spacious hero section.
+•	Two-column layouts where appropriate.
+•	Grid-based project and gallery sections.
+•	Consistent card spacing.
+•	Subtle borders and rounded corners.
+Tablet:
+•	Adapt grids to two columns where appropriate.
+•	Maintain comfortable spacing.
+•	Keep navigation accessible.
+Mobile:
+•	Single-column layout.
+•	Mobile navigation menu.
+•	Full-width buttons where appropriate.
+•	Optimized images and videos.
+•	No horizontal scrolling.
+•	Touch-friendly interactive elements.
+Do not simply shrink the desktop design. Redesign the component arrangements appropriately for mobile.
+________________________________________
+PART 2: WEBSITE NAVIGATION
+Create the following six main pages in exactly this order:
+HOME | ABOUT | PROJECTS | GALLERY | SERVICES | CONTACT
+Navigation requirements:
+•	Sticky navigation bar.
+•	Logo on the left.
+•	Navigation links on the right.
+•	Active page indicator.
+•	Smooth scrolling for one-page navigation where appropriate.
+•	Mobile hamburger navigation.
+•	Contact button highlighted in electric blue.
+•	Admin login link accessible through a discreet footer link or /admin/login route.
+Use proper routing so each page can also be accessed through its own URL.
+Suggested routes:
+/
+/about
+/projects
+/gallery
+/services
+/contact
+/admin/login
+/admin/signup
+/admin/dashboard
+All public pages should share the same header and footer.
+________________________________________
+PART 3: PUBLIC WEBSITE PAGES
+PAGE 1: HOME
+Design the homepage as the most visually impressive section of the website.
+A. Hero Section
+Create a large, visually engaging two-column hero layout.
+Left side:
+Small introductory text:
+"Turning Creative Ideas Into Digital Growth."
+Main heading:
+"HI, I am SHYAM SHAHI"
+Supporting heading:
+"Social Media Manager | AI Content Creator"
+Description:
+"I combine marketing strategy, AI-powered creativity, and intelligent automation to help businesses build their online presence and connect with their ideal customers.
+From social media campaigns and marketing funnels to AI-generated videos, images, and WhatsApp automation, I create digital marketing solutions designed to turn attention into opportunities.
+"
+Primary CTA:
+"Explore My Work"
+Secondary CTA:
+"Let's Work Together"
+Include social media icons with editable profile URLs.
+Right side:
+•	Large professional portrait.
+•	Blue atmospheric background.
+•	Subtle glowing shapes.
+•	Floating social media icons.
+•	Small floating labels such as "AI Content Creator", "Social Media Strategy", and "Digital Growth".
+•	Subtle animated background elements.
+IMPORTANT:
+Allow the administrator to upload or replace the hero portrait through the admin dashboard.
+The image must support cropping, positioning, resizing, and replacement.
+B. Featured Projects
+Heading:
+"Selected Works"
+Subheading:
+"A collection of creative campaigns, strategic projects, and AI-powered content."
+Display six featured project cards.
+Each card should contain:
+•	Project thumbnail.
+•	Project title.
+•	Category.
+•	Short description.
+•	Tools used.
+•	Project date.
+•	View Project button.
+Suggested categories:
+•	Social Media Campaign
+•	AI Image Creation
+•	AI Video Creation
+•	Graphic Design
+•	Content Strategy
+•	Marketing Automation
+Add:
+"View All Projects"
+The projects must load dynamically from the database.
+C. Expertise / Skills
+Heading:
+"My Creative Toolkit"
+Display visually attractive skill cards or progress indicators.
+Suggested skills:
+•	Social Media Management
+•	Content Strategy
+•	AI Image Generation
+•	AI Video Production
+•	Graphic Design
+•	Video Editing
+•	Meta Ads
+•	WhatsApp Automation
+•	Marketing Analytics
+Allow the admin to manage skill names, descriptions, icons, and proficiency levels.
+Do not invent experience percentages or performance statistics. Use values entered by the administrator.
+D. Services Preview
+Display four primary service cards:
+1.	Social Media Management
+2.	AI Content & Video Creation
+3.	Graphic Design & Creative Production
+4.	WhatsApp Business API & Automation
+Each card should include an icon, description, and Learn More link.
+E. Testimonials Preview
+Create a testimonial slider containing:
+•	Client name.
+•	Client designation.
+•	Company name.
+•	Client photo.
+•	Review.
+•	Rating.
+All testimonial content must be editable.
+Do not insert fabricated client reviews. Use clearly identified placeholder content until actual testimonials are provided.
+F. Final CTA
+Create a full-width CTA section with a visually attractive creative background.
+Heading:
+"Let's Build Something Extraordinary."
+Description:
+"Have a brand, project, or creative idea in mind? Let's turn it into something impactful."
+Button:
+"Start a Conversation"
+G. Footer
+Include:
+•	Personal logo.
+•	Short professional introduction.
+•	Navigation links.
+•	Services links.
+•	Social media profiles.
+•	Email address.
+•	Copyright information.
+•	Admin login link.
+________________________________________
+PAGE 2: ABOUT
+Design this page as a professional introduction and personal brand presentation.
+A. About Hero
+Heading:
+"Let's turn your business goals into digital opportunities.."
+Include:
+•	Professional portrait.
+•	Introduction.
+•	Professional background.
+•	Personal mission.
+•	Core philosophy.
+Suggested introduction:
+"I am Shyam Shahi, a passionate Social Media Marketing Manager specializing in social media strategy, AI-powered content creation, and marketing automation.
+I help businesses build a strong digital presence through strategic marketing, engaging content, and intelligent automation. My approach combines creative storytelling with data-driven marketing strategies to attract the right audience, increase brand awareness, generate quality leads, and support business growth.
+From developing comprehensive marketing funnels and conducting competitor research to creating scroll-stopping AI-generated images and videos, I enjoy transforming marketing ideas into practical digital experiences.
+My expertise also includes Facebook, Instagram, and LinkedIn campaign management, WhatsApp Business API automation, email marketing, and landing page design.
+I continuously explore emerging AI tools and digital marketing trends to create smarter, more engaging, and efficient marketing solutions.
+My Mission: To help businesses grow digitally by combining strategic marketing, creative AI content, and powerful automation."
+B. My Journey
+Create a visual professional journey or timeline.
+Each timeline item should contain:
+•	Year.
+•	Role or milestone.
+•	Description.
+•	Relevant image, if available.
+Make all timeline items editable through the dashboard.
+C. My Approach
+Display four principles:
+1.	Strategy First
+2.	Creativity With Purpose
+3.	AI-Powered Innovation
+4.	Data-Driven Growth
+Use modern icon-based cards.
+D. Tools & Technologies
+Display editable software and platform logos, including:
+•	Canva
+•	Adobe Photoshop
+•	Adobe Illustrator
+•	Premiere Pro
+•	CapCut
+•	ChatGPT
+•	Google AI Studio
+•	Midjourney
+•	Meta Business Suite
+•	WhatsApp Business API
+Allow the administrator to add or remove tools.
+E. Professional Information
+Include editable fields for:
+•	Location.
+•	Email.
+•	Professional experience.
+•	Languages.
+•	Availability.
+•	Downloadable CV.
+All information must be controlled through the admin dashboard.
+________________________________________
+PAGE 3: PROJECTS
+This page should function as a professional case-study portfolio.
+A. Projects Header
+Heading:
+"Creative Projects. Strategic Results."
+Description:
+"Explore selected projects showcasing social media campaigns, AI-powered creative production, brand storytelling, and digital marketing."
+B. Project Categories
+Create interactive filtering tabs:
+•	All Projects
+•	Social Media Management
+•	AI Images
+•	AI Videos
+•	Graphic Design
+•	Content Strategy
+•	Automation
+Filtering should work dynamically without reloading the page.
+C. Project Cards
+Each project card should contain:
+•	Featured image.
+•	Project name.
+•	Category.
+•	Short description.
+•	Tools used.
+•	Completion date.
+•	View Details button.
+D. Individual Project Details
+When visitors click a project, open a dedicated project detail page or modal.
+Each project should support:
+1.	Project title.
+2.	Client or brand name.
+3.	Project category.
+4.	Project overview.
+5.	Client challenge.
+6.	Strategy.
+7.	Creative execution.
+8.	Tools and technologies.
+9.	Final deliverables.
+10.	Results and performance metrics.
+11.	Image gallery.
+12.	Embedded videos.
+13.	External project links.
+Create a visually compelling case-study layout.
+Allow the admin to create unlimited projects.
+Allow image galleries, videos, and multiple content blocks within each project.
+Do not fabricate campaign metrics, client names, or results.
+________________________________________
+PAGE 4: GALLERY
+This should be a visually rich creative showcase.
+Heading:
+"Creative Gallery"
+Subheading:
+"A visual collection of ideas, imagination, and AI-powered creativity."
+A. Gallery Categories
+Create interactive categories:
+•	AI-Generated Images
+•	AI Videos
+•	Social Media Creatives
+•	Posters & Advertisements
+•	Branding & Graphic Design
+•	Marketing Campaigns
+•	Reels & Short Videos
+B. Gallery Layout
+Use an elegant masonry or responsive grid layout.
+Each item should support:
+•	Image or video thumbnail.
+•	Title.
+•	Category.
+•	Description.
+•	Creation date.
+•	Software or AI tool used.
+•	Fullscreen preview.
+C. Gallery Interactions
+Implement:
+•	Category filters.
+•	Lightbox viewing.
+•	Next and previous navigation.
+•	Video playback.
+•	Lazy loading.
+•	Responsive image rendering.
+Allow the admin to upload unlimited gallery content.
+Support image formats including JPG, PNG, WebP, and GIF, along with MP4 video embeds.
+Allow external video embedding from supported video platforms.
+________________________________________
+PAGE 5: SERVICES
+Heading:
+"Creative Solutions for Digital Growth."
+Description:
+"From managing your social presence to producing AI-powered content, I help businesses communicate, connect, and grow."
+Create detailed service sections.
+Service 1: Social Media Management
+Include:
+•	Social media strategy.
+•	Funnel Design
+•	Content planning.
+•	Monthly content calendars.
+•	Caption writing.
+•	Graphic design.
+•	Reels and short-form video planning.
+•	Community management.
+•	Performance reporting.
+CTA: "Discuss Your Social Media Strategy"
+Service 2: AI Content & Video Creation
+Include:
+•	AI-generated images.
+•	AI product photography.
+•	AI advertising creatives.
+•	AI promotional videos.
+•	AI video storytelling.
+•	Image-to-video production.
+•	AI-assisted creative campaigns.
+CTA: "Create With AI"
+Service 3: Graphic Design
+Include:
+•	Social media graphics.
+•	Advertising creatives.
+•	Promotional posters.
+•	Brand visuals.
+•	Marketing materials.
+•	Creative campaign design.
+CTA: "Let's Design Something"
+Service 4: WhatsApp Business API & Automation
+Include:
+•	WhatsApp Business API integration.
+•	Automated customer communication.
+•	Lead generation workflows.
+•	Customer support automation.
+•	Marketing message workflows.
+•	Business communication solutions.
+CTA: "Automate Your Business"
+Service Management
+Every service must have an individual editable record.
+The admin must be able to:
+•	Add new services.
+•	Edit service titles.
+•	Update descriptions.
+•	Change icons.
+•	Upload images.
+•	Modify features.
+•	Change CTA labels and URLs.
+•	Reorder services.
+•	Publish or unpublish services.
+•	Delete services.
+________________________________________
+PAGE 6: CONTACT
+Create a professional contact page with an engaging two-column layout.
+A. Contact Introduction
+Heading:
+"Let's Work Together."
+Description:
+"Have a project in mind or looking to improve your digital presence? I'd love to hear about it."
+B. Contact Information
+Display editable:
+•	Email address.
+•	WhatsApp number.
+•	Location.
+•	Social media links.
+•	Business hours.
+C. Contact Form
+Fields:
+•	Full Name.
+•	Email Address.
+•	Company / Brand.
+•	Service Required.
+•	Estimated Budget (optional).
+•	Project Details.
+Submit button:
+"Send Message"
+Requirements:
+•	Validate all required fields.
+•	Validate email format.
+•	Display loading state.
+•	Display success and error messages.
+•	Store submissions in the database.
+•	Prevent duplicate submissions where possible.
+•	Implement spam protection.
+•	Notify the administrator through a configurable email notification service.
+D. Admin Lead Management
+Every contact submission must appear inside the admin dashboard.
+Admin should be able to:
+•	View messages.
+•	Search submissions.
+•	Filter by service.
+•	Mark as unread/read.
+•	Mark as contacted.
+•	Update lead status.
+•	Add internal notes.
+•	Delete submissions.
+________________________________________
+PART 4: ADMIN DASHBOARD — CRITICAL REQUIREMENT
+Build a separate, professional, secure, fully functional CMS dashboard.
+This is one of the most important components of the entire website.
+The admin must be able to control the complete public website without touching the code.
+Admin URL:
+/admin/login
+Dashboard URL:
+/admin/dashboard
+1. Admin Authentication
+Implement secure authentication with:
+•	Admin sign-up.
+•	Admin sign-in.
+•	Sign-out.
+•	Forgot password.
+•	Password reset.
+•	Email verification.
+•	Protected routes.
+•	Session persistence.
+•	Role-based permissions.
+Use Supabase Authentication.
+IMPORTANT SECURITY REQUIREMENTS:
+•	Do not expose database service-role keys in frontend code.
+•	Do not allow unrestricted public administrator registration.
+•	Implement an administrator invitation or approval mechanism.
+•	The first administrator should be created through a secure setup process.
+•	Subsequent administrators must require an authorized invitation or approval.
+•	Use Row Level Security (RLS).
+•	Validate all privileged operations on the server.
+Create two initial roles:
+Super Admin
+•	Complete access to all website functions.
+•	Can manage administrators.
+•	Can manage all pages and content.
+•	Can change website settings.
+Editor
+•	Can create and edit website content.
+•	Can manage projects, gallery, services, and testimonials.
+•	Cannot manage administrator accounts or security settings.
+2. Dashboard Overview
+Create a modern dashboard with a left sidebar and main content area.
+Sidebar navigation:
+1.	Overview
+2.	Pages
+3.	Hero Section
+4.	About
+5.	Projects
+6.	Gallery
+7.	Services
+8.	Testimonials
+9.	Skills & Tools
+10.	Media Library
+11.	Contact Messages
+12.	Navigation Menu
+13.	Website Settings
+14.	Admin Users
+15.	Database / Activity Logs
+16.	Logout
+Dashboard overview should display:
+•	Total projects.
+•	Total gallery items.
+•	Total services.
+•	Total testimonials.
+•	Total contact messages.
+•	Unread messages.
+•	Published pages.
+•	Draft content.
+Use live database queries for all statistics.
+Do not display fake analytics.
+3. Page Management
+Create a complete page management system.
+The admin should be able to:
+•	Create new pages.
+•	Edit existing pages.
+•	Delete pages.
+•	Change page titles.
+•	Edit SEO titles.
+•	Edit meta descriptions.
+•	Change page URLs/slugs.
+•	Upload page banner images.
+•	Enable or disable pages.
+•	Publish or unpublish pages.
+•	Preview changes.
+•	Reorder pages.
+Provide a visual page editor.
+4. Section Management
+Every public page must have independently manageable sections.
+For each section, provide:
+•	Section title.
+•	Subtitle.
+•	Description.
+•	Images.
+•	Background settings.
+•	Text alignment.
+•	Layout options.
+•	CTA buttons.
+•	Visibility toggle.
+•	Display order.
+The administrator should be able to:
+•	Add sections.
+•	Edit sections.
+•	Delete sections.
+•	Duplicate sections.
+•	Reorder sections through drag and drop.
+•	Hide sections without deleting them.
+•	Preview changes.
+Build reusable section components so newly created sections can be rendered through predefined layouts.
+Allow the admin to choose from supported section types such as:
+•	Hero.
+•	Text and Image.
+•	Image Gallery.
+•	Project Grid.
+•	Video Gallery.
+•	Services Grid.
+•	Testimonials.
+•	Statistics.
+•	Timeline.
+•	CTA.
+•	Contact Form.
+The website frontend must render these sections dynamically from the database.
+5. Hero Section Management
+Create a dedicated Hero Editor.
+Allow the admin to modify:
+•	Main heading.
+•	Supporting heading.
+•	Introductory text.
+•	Primary button.
+•	Secondary button.
+•	Portrait image.
+•	Background image.
+•	Floating labels.
+•	Social links.
+•	Image positioning.
+•	Image cropping.
+•	Background color.
+•	Animation settings.
+Provide an instant preview.
+6. Project Management
+Create a complete CRUD project manager.
+CRUD means Create, Read, Update, and Delete.
+Admin functions:
+•	Add projects.
+•	Edit projects.
+•	Delete projects.
+•	Upload project thumbnails.
+•	Add multiple project images.
+•	Embed videos.
+•	Add project descriptions.
+•	Add client details.
+•	Add project categories.
+•	Add tools used.
+•	Add performance metrics.
+•	Create case studies.
+•	Feature projects on the homepage.
+•	Change display order.
+•	Publish or save drafts.
+Use a rich-text editor for project descriptions.
+7. Gallery Management
+Create a media gallery manager.
+Admin can:
+•	Upload images.
+•	Upload video files where supported.
+•	Embed external videos.
+•	Add titles and descriptions.
+•	Select categories.
+•	Add tags.
+•	Add tool information.
+•	Replace media.
+•	Delete media.
+•	Reorder gallery items.
+•	Preview media.
+•	Publish or unpublish gallery entries.
+Support bulk upload where practical.
+8. Services Management
+Admin can:
+•	Add services.
+•	Edit services.
+•	Delete services.
+•	Change icons.
+•	Upload images.
+•	Add descriptions.
+•	Manage service features.
+•	Change CTA buttons.
+•	Reorder service cards.
+•	Control visibility.
+9. Testimonials Management
+Admin can:
+•	Add testimonials.
+•	Edit testimonials.
+•	Delete testimonials.
+•	Upload client photos.
+•	Enter client names.
+•	Add company and designation.
+•	Add reviews.
+•	Set ratings.
+•	Feature testimonials.
+10. Media Library
+Create a centralized media management system.
+Features:
+•	Upload media.
+•	Search files.
+•	Filter by type.
+•	Preview images.
+•	Copy media URLs.
+•	Replace images.
+•	Delete unused media.
+•	Add alt text.
+•	Organize files into folders or categories.
+Support Google Drive assets and Cloudflare-hosted assets.
+11. Website Settings
+Create a settings panel for:
+•	Website name.
+•	Logo.
+•	Favicon.
+•	Contact email.
+•	WhatsApp number.
+•	Social media links.
+•	SEO defaults.
+•	Google Analytics ID.
+•	Meta Pixel ID.
+•	Footer text.
+•	Copyright.
+•	Default colors.
+•	Typography.
+•	Navigation settings.
+•	Maintenance mode.
+12. Live Preview and Publishing
+Implement a reliable publishing workflow.
+The admin should have:
+•	Save Draft.
+•	Preview.
+•	Publish.
+•	Unpublish.
+•	Discard Changes.
+Changes should not become publicly visible until published.
+Show confirmation messages after successful actions.
+Prevent accidental deletion through confirmation dialogs.
+Use optimistic updates only when rollback and error handling are implemented correctly.
+________________________________________
+PART 5: DATABASE ARCHITECTURE
+Use Supabase (PostgreSQL) as the primary database.
+Use Supabase Authentication for admin accounts and Supabase Storage only when appropriate.
+Create normalized database tables with proper relationships.
+Recommended tables:
+1.	profiles
+2.	pages
+3.	page_sections
+4.	hero_content
+5.	projects
+6.	project_media
+7.	project_categories
+8.	gallery_items
+9.	gallery_categories
+10.	services
+11.	service_features
+12.	testimonials
+13.	skills
+14.	tools
+15.	contact_messages
+16.	navigation_items
+17.	site_settings
+18.	media_assets
+19.	activity_logs
+20.	admin_invitations
+Every relevant table should include:
+•	Unique ID.
+•	Created timestamp.
+•	Updated timestamp.
+•	Appropriate relationships.
+•	Status fields where required.
+Use UUID primary keys.
+Use database indexes for frequently searched and filtered fields.
+Use foreign keys and appropriate cascading behavior.
+IMPORTANT:
+•	Use Row Level Security on all sensitive tables.
+•	Public visitors should only read published website content.
+•	Public visitors must not access unpublished drafts.
+•	Only authenticated and authorized administrators can modify website content.
+•	Only Super Admins can manage administrator accounts.
+•	Contact form submissions must be protected against unauthorized reading.
+•	Never expose secret keys in frontend JavaScript.
+Generate the complete SQL schema and migration files.
+Create realistic seed data only for clearly marked demo content.
+________________________________________
+PART 6: GOOGLE DRIVE INTEGRATION
+Use Google Drive for embedding and accessing supplied portfolio files and reference materials.
+Implement Google Drive integration using supported Google Drive sharing and embedding mechanisms.
+Requirements:
+1.	Allow the administrator to add Google Drive file URLs.
+2.	Support publicly shared images and PDFs.
+3.	Support embedded PDFs where browser access is permitted.
+4.	Display supported documents using an embedded viewer.
+5.	Provide a button to open the original file in Google Drive.
+6.	Allow the administrator to add and update file links.
+7.	Store Google Drive file IDs and metadata in the database.
+8.	Provide clear error handling for inaccessible or private files.
+For PDFs, use the Google Drive preview mechanism where supported.
+For images and videos, use supported public delivery or embedding methods.
+If private Drive files are required, implement OAuth with the necessary permissions and server-side token handling.
+Do not assume that an ordinary Google Drive sharing link is a direct image URL.
+Do not expose OAuth credentials or refresh tokens in frontend code.
+The administrator must be able to embed portfolio PDFs, case studies, presentations, and other supporting documents.
+________________________________________
+PART 7: CLOUDFLARE CDN INTEGRATION
+Use Cloudflare for performance, content delivery, and security.
+Recommended architecture:
+•	Cloudflare CDN for static assets.
+•	Cloudflare DNS for domain management.
+•	Cloudflare caching for eligible public resources.
+•	Cloudflare image optimization where available.
+•	Cloudflare R2 as an optional media storage origin.
+•	Cloudflare security protections and rate limiting where appropriate.
+For uploaded images and videos, use a media architecture that allows Cloudflare-delivered public assets.
+Store the actual asset URL, storage provider, file type, and metadata in the database.
+Use responsive image delivery.
+Optimize image sizes and use WebP or AVIF where supported.
+Configure appropriate cache-control headers.
+Never cache private admin pages, authentication responses, or unpublished/private content publicly.
+Google Drive assets must continue using supported Google delivery or embedding methods; do not assume Cloudflare automatically serves Drive files.
+________________________________________
+PART 8: TECHNOLOGY STACK
+Build using the following recommended stack:
+Frontend:
+•	React.
+•	TypeScript.
+•	Vite.
+•	Tailwind CSS.
+•	Framer Motion.
+•	Lucide Icons.
+•	React Router.
+Backend and Database:
+•	Supabase PostgreSQL.
+•	Supabase Authentication.
+•	Supabase Row Level Security.
+•	Netlify Functions for secure server-side operations where needed.
+Media:
+•	Google Drive integration.
+•	Cloudflare CDN.
+•	Cloudflare R2 where appropriate.
+Hosting:
+•	Netlify.
+Additional:
+•	React Hook Form.
+•	Zod validation.
+•	Rich-text editor.
+•	Responsive image components.
+•	Toast notifications.
+Use clean, modular, reusable components.
+Organize the code into:
+•	components
+•	pages
+•	layouts
+•	hooks
+•	services
+•	lib
+•	types
+•	admin
+•	database
+•	functions
+•	assets
+Use environment variables for all sensitive configuration.
+Create an .env.example file.
+________________________________________
+PART 9: NETLIFY DEPLOYMENT
+Prepare the website for direct Netlify deployment.
+Requirements:
+1.	Configure the build command.
+2.	Configure the publish directory.
+3.	Create proper SPA routing redirects.
+4.	Configure Netlify Functions.
+5.	Configure environment variables.
+6.	Connect Supabase.
+7.	Configure custom domain compatibility.
+8.	Add production error handling.
+9.	Ensure direct URL navigation works.
+10.	Ensure admin authentication works after page refresh.
+Recommended configuration:
+Build command: npm run build
+Publish directory: dist
+Create a netlify.toml file.
+Configure redirects so routes such as /about, /projects, and /admin/dashboard resolve correctly.
+Never put service-role credentials or other private secrets in the public frontend bundle.
+Provide clear instructions for configuring Netlify environment variables and deployment.
+________________________________________
+PART 10: ANIMATIONS AND INTERACTIONS
+Use subtle, professional animations.
+Implement:
+•	Smooth scrolling.
+•	Fade-in on scroll.
+•	Subtle hero image movement.
+•	Hover effects on project cards.
+•	Animated CTA buttons.
+•	Gallery lightbox transitions.
+•	Project filtering animations.
+•	Testimonial slider.
+•	Navigation transitions.
+•	Loading skeletons.
+•	Dashboard sidebar transitions.
+•	Drag-and-drop section ordering.
+Use Framer Motion.
+Animations should be lightweight and should not compromise accessibility or performance.
+Respect reduced-motion preferences.
+________________________________________
+PART 11: SEO AND PERFORMANCE
+Implement:
+•	Unique page titles.
+•	Meta descriptions.
+•	Open Graph metadata.
+•	Twitter card metadata.
+•	Canonical URLs.
+•	Semantic HTML.
+•	Image alt text.
+•	XML sitemap.
+•	Robots.txt.
+•	Structured data where appropriate.
+•	Lazy loading.
+•	Responsive image sizes.
+•	Code splitting.
+•	Optimized fonts.
+•	Accessible color contrast.
+Target strong Core Web Vitals performance.
+Do not sacrifice usability for visual effects.
+________________________________________
+PART 12: FUNCTIONAL REQUIREMENTS AND TESTING
+Do not create a static mockup.
+Build actual working features connected to the database.
+Before considering the project complete, test:
+PUBLIC WEBSITE:
+•	All six pages load correctly.
+•	Navigation works.
+•	Project filters work.
+•	Gallery filters work.
+•	Images load correctly.
+•	Videos embed correctly.
+•	Contact form submits successfully.
+•	Mobile layout works.
+•	SEO metadata is present.
+ADMIN DASHBOARD:
+•	Admin can sign up through the authorized registration process.
+•	Admin can sign in and sign out.
+•	Password reset works.
+•	Protected routes work.
+•	Dashboard statistics load from the database.
+•	Pages can be created, edited, deleted, and published.
+•	Sections can be created, edited, deleted, and reordered.
+•	Hero content and images can be changed.
+•	Projects can be created and managed.
+•	Gallery items can be managed.
+•	Services can be managed.
+•	Testimonials can be managed.
+•	Media can be uploaded and replaced.
+•	Contact messages can be managed.
+•	Changes appear on the public website after publishing.
+•	Unauthorized users cannot access administrative operations.
+DATABASE:
+•	Database tables are properly connected.
+•	Relationships work correctly.
+•	RLS policies are tested.
+•	Errors are handled.
+•	Data persists after refreshing the browser.
+DEPLOYMENT:
+•	Production build succeeds.
+•	Netlify routing works.
+•	Environment variables are configured.
+•	No secret credentials are exposed.
+________________________________________
+PART 13: FINAL DESIGN EXPECTATION
+The finished website must closely follow the visual inspiration of the attached portfolio reference.
+However, adapt every element to the identity of a Social Media Manager and AI Content Creator.
+The final result should feel like a premium personal creative studio.
+Design priorities:
+1.	Strong visual identity.
+2.	Professional personal branding.
+3.	Excellent typography.
+4.	Beautiful project presentation.
+5.	Rich AI image and video gallery.
+6.	Clear service presentation.
+7.	Functional contact experience.
+8.	Fully functional admin dashboard.
+9.	Database-driven content management.
+10.	Responsive design.
+11.	High performance.
+12.	Easy future customization.
+Do not use generic placeholder layouts.
+Do not build buttons that do nothing.
+Do not create fake database functionality.
+Do not use hardcoded content for sections that should be editable.
+Do not claim a feature is integrated until its connection and functionality have actually been implemented and tested.
+FINAL INSTRUCTION
+Build this project in a production-oriented manner.
+First establish the complete project architecture, database schema, authentication, and security policies.
+Then develop the public-facing website and admin dashboard.
+Connect every editable section to the database.
+Implement media integration, Google Drive embedding, and Cloudflare delivery.
+Finally, test all functionality and prepare the complete project for Netlify deployment.
+If API keys, credentials, database URLs, or external service permissions are required, create the correct configuration fields and provide clear setup instructions rather than inventing credentials.
+The final deliverable must be a complete, working, editable portfolio website with a secure CMS—not merely a visual prototype.
